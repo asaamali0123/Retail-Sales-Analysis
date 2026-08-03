@@ -1,73 +1,130 @@
-# 🛒 Retail Sales Analysis
+# 🛍️ Retail Sales Analysis & Executive Dashboard
 
-An end-to-end Data Analytics portfolio project that analyzes a retail Superstore dataset using Python. 
-This project demonstrates data cleaning, feature engineering, exploratory data analysis (EDA),
-business KPI development, data visualization, and business recommendations to support decision-making.
 ## 📌 Project Overview
 
-The goal of this project is to analyze retail sales data and identify meaningful business insights that can support management decisions.
+This project analyzes a retail sales dataset using **Python** and presents business insights through an interactive **Power BI Executive Dashboard**.
 
-The analysis covers the complete data analytics workflow:
+The project follows a complete data analytics workflow:
 
 - Data Cleaning
-- Feature Engineering
 - Exploratory Data Analysis (EDA)
 - KPI Development
 - Business Insights
-- Data Visualization
-- Business Recommendations
+- Executive Dashboard Creation
 
-This project was completed using Python and focuses on solving real business problems rather than only producing charts.
-## 🛠️ Technologies Used
+---
+
+## 🎯 Business Objectives
+
+The analysis aims to answer questions such as:
+
+- How have sales changed over time?
+- Which product categories generate the highest revenue?
+- Which regions perform best?
+- Who are the top customers?
+- Which products contribute the most sales?
+- Are there seasonal sales trends?
+- Which shipping methods are preferred?
+
+---
+
+## 🛠️ Tools & Technologies
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
-- Jupyter Notebook (VS Code)
-- ## 📂 Dataset
-
-- Dataset: Superstore Sales Dataset
-- Records: Approximately 10,000 sales transactions
-- Features: Customer, Product, Sales, Shipping, Region, Category, Order Date, Ship Date, and more.
-
-The dataset was used for educational and portfolio purposes.
-## 🔄 Project Workflow
-
-1. Business Understanding
-2. Data Cleaning
-3. Feature Engineering
-4. Exploratory Data Analysis (EDA)
-5. KPI Development
-6. Data Visualization
-7. Business Insights
-8. Business Recommendations
-9. Executive Summary
-    ## 📊 Key Business Insights
-
-- Sales showed an overall upward trend from 2015 to 2018, except for a temporary decline in 2016.
-- Order volume increased consistently each year, indicating growing customer demand.
-- Technology generated the highest revenue despite having the fewest orders, while Office Supplies generated the most orders but lower revenue.
-- The Consumer segment contributed the highest sales and order volume.
-- The West region was the company's strongest market, while the South had the lowest sales.
-- Sales peaked during the fourth quarter, especially in December, while July and August showed weaker performance.
-- Standard Class was the most preferred shipping mode across customer segments.
-  ## 💡 Business Recommendations
-
-- Continue investing in high-performing Technology products to maximize revenue.
-- Increase the average order value of Office Supplies through bundles and cross-selling.
-- Investigate the causes of the 2016 sales decline for future risk prevention.
-- Launch targeted marketing campaigns during low-performing months such as July and August.
-- Develop strategies to improve sales in the South region.
-- Retain high-value customers through loyalty and personalized marketing programs.
-- Maintain and optimize Standard Class shipping while evaluating premium shipping opportunities.
-  ## 🚀 Future Improvements
-
-- Develop an interactive Power BI dashboard.
-- Perform sales forecasting using machine learning models.
-- Analyze customer retention and repeat purchase behavior.
-- Include profit, discount, and return analysis for deeper business insights.
-- Build an automated reporting pipeline using Python.
+- Jupyter Notebook
+- Power BI
+- Git & GitHub
 
 ---
+
+# 📊 Dashboard Preview
+
+> *(Insert your dashboard screenshot here)*
+
+![Executive Dashboard](images/dashboard.png)
+
+---
+
+# 📈 Key Insights
+
+- Total Sales exceeded **$2.26 Million**.
+- Technology generated the highest revenue.
+- West region achieved the highest sales.
+- Sales declined in **2016** before recovering strongly.
+- Consumer segment generated the highest revenue.
+- November and December recorded peak sales.
+- July and August showed weaker sales performance.
+- Standard Class shipping was the most frequently used shipping mode.
+
+---
+
+# 📂 Repository Structure
+
+```text
+Retail-Sales-Analysis/
+│
+├── README.md
+├── Retail_Sales_Analysis.ipynb
+├── Retail_Sales_Analysis_Report.pdf
+├── Superstore_Cleaned.csv
+├── retail_store_dashboard.pbix
+│
+└── images/
+    ├── dashboard.png
+    ├── sales_by_year.png
+    ├── sales_by_category.png
+    ├── monthly_sales_trend.png
+    ├── correlation_heatmap.png
+    └── sales_by_subcategory.png
+```
+
+---
+
+# 📷 Project Screenshots
+
+## Sales Trend
+
+![Sales Trend](images/total sale over year.png)
+
+---
+
+## Sales by Category
+
+![Category](images/sales_by_category.png)
+
+---
+
+## Monthly Sales Trend
+
+![Monthly Trend](images/monthly_sales_trend.png)
+
+---
+
+## Correlation Heatmap
+
+![Correlation](images/correlation_heatmap.png)
+
+---
+
+# 🚀 How to Run
+
+1. Clone the repository.
+2. Open `Retail_Sales_Analysis.ipynb`.
+3. Install the required Python libraries.
+4. Run all notebook cells.
+5. Open `retail_store_dashboard.pbix` in Power BI Desktop.
+
+---
+
+# 👨‍💻 Author
+
+**Muhammad Asaam Ali**
+
+Aspiring Data Analyst | Python | SQL | Power BI | Excel
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
