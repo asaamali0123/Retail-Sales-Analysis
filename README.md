@@ -2,62 +2,95 @@
 
 ## 📌 Project Overview
 
-This project analyzes a retail sales dataset using **Python** and presents business insights through an interactive **Power BI Executive Dashboard**.
+This project presents a complete **Retail Sales Analysis** using **Python** for data cleaning, feature engineering, exploratory data analysis (EDA), and **Power BI** for building an interactive Executive Dashboard.
 
-The project follows a complete data analytics workflow:
-
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- KPI Development
-- Business Insights
-- Executive Dashboard Creation
+The project follows a complete data analytics workflow from raw data to business recommendations.
 
 ---
 
-## 🎯 Business Objectives
+# 🎯 Business Objectives
 
-The analysis aims to answer questions such as:
+This project answers the following business questions:
 
 - How have sales changed over time?
 - Which product categories generate the highest revenue?
 - Which regions perform best?
-- Who are the top customers?
-- Which products contribute the most sales?
-- Are there seasonal sales trends?
+- Which customers contribute the most sales?
+- Which products drive revenue?
+- Are there seasonal sales patterns?
 - Which shipping methods are preferred?
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Jupyter Notebook
 - Power BI
-- Git & GitHub
+- Jupyter Notebook
+- GitHub
 
 ---
 
-# 📊 Dashboard Preview
+# 📊 Power BI Dashboard
 
-> *(Insert your dashboard screenshot here)*
+## Executive Dashboard
 
-![Executive Dashboard](images/dashboard.png)
+![Dashboard Page 1](images/dashboard retail_store page 1.png)
 
 ---
 
-# 📈 Key Insights
+## Customer & Product Analysis Dashboard
+
+![Dashboard Page 2](images/page 2 dashboard retail_store.png)
+
+---
+
+# 📈 Key Business Insights
 
 - Total Sales exceeded **$2.26 Million**.
-- Technology generated the highest revenue.
-- West region achieved the highest sales.
-- Sales declined in **2016** before recovering strongly.
-- Consumer segment generated the highest revenue.
-- November and December recorded peak sales.
-- July and August showed weaker sales performance.
-- Standard Class shipping was the most frequently used shipping mode.
+- Sales showed overall growth from 2015–2018, with a temporary decline in 2016.
+- Technology generated the highest revenue among all categories.
+- Office Supplies generated the highest number of orders.
+- The West region contributed the highest overall sales.
+- Consumer was the highest-performing customer segment.
+- Sales peaked during November and December.
+- July and August showed comparatively lower sales performance.
+- Standard Class was the most preferred shipping mode.
+
+---
+
+# 📷 Exploratory Data Analysis
+
+## Sales Trend by Year
+
+![Sales Trend](images/total sale over year.png)
+
+---
+
+## Monthly Sales Trend
+
+![Monthly Sales](images/monthly sales trend.png)
+
+---
+
+## Sales by Category
+
+![Category Sales](images/oder by ctegory.png)
+
+---
+
+## Sales by Sub-Category
+
+![Sub Category](images/total sales by sub category.png)
+
+---
+
+## Correlation Heatmap
+
+![Correlation](images/correlation.png)
 
 ---
 
@@ -69,53 +102,28 @@ Retail-Sales-Analysis/
 ├── README.md
 ├── Retail_Sales_Analysis.ipynb
 ├── Retail_Sales_Analysis_Report.pdf
-├── Superstore_Cleaned.csv
+├── Superstore.csv
 ├── retail_store_dashboard.pbix
 │
 └── images/
-    ├── dashboard.png
-    ├── sales_by_year.png
-    ├── sales_by_category.png
-    ├── monthly_sales_trend.png
-    ├── correlation_heatmap.png
-    └── sales_by_subcategory.png
+    ├── dashboard retail_store page 1.png
+    ├── page 2 dashboard retail_store.png
+    ├── total sale over year.png
+    ├── monthly sales trend.png
+    ├── oder by ctegory.png
+    ├── total sales by sub category.png
+    └── correlation.png
 ```
 
 ---
 
-# 📷 Project Screenshots
+# 🚀 How to Run This Project
 
-## Sales Trend
-
-![Sales Trend](images/total sale over year.png)
-
----
-
-## Sales by Category
-
-![Category](images/sales_by_category.png)
-
----
-
-## Monthly Sales Trend
-
-![Monthly Trend](images/monthly_sales_trend.png)
-
----
-
-## Correlation Heatmap
-
-![Correlation](images/correlation_heatmap.png)
-
----
-
-# 🚀 How to Run
-
-1. Clone the repository.
-2. Open `Retail_Sales_Analysis.ipynb`.
-3. Install the required Python libraries.
+1. Clone this repository.
+2. Install the required Python libraries.
+3. Open **Retail_Sales_Analysis.ipynb**.
 4. Run all notebook cells.
-5. Open `retail_store_dashboard.pbix` in Power BI Desktop.
+5. Open **retail_store_dashboard.pbix** in Power BI Desktop.
 
 ---
 
@@ -123,8 +131,16 @@ Retail-Sales-Analysis/
 
 **Muhammad Asaam Ali**
 
-Aspiring Data Analyst | Python | SQL | Power BI | Excel
+Aspiring Data Analyst
+
+Skills:
+- Python
+- SQL
+- Power BI
+- Excel
+- Pandas
+- NumPy
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, please consider giving it a **Star**.
