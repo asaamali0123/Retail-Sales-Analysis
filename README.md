@@ -2,27 +2,23 @@
 
 ## 📌 Project Overview
 
-This project presents a complete **Retail Sales Analysis** using **Python** for data cleaning, feature engineering, exploratory data analysis (EDA), and **Power BI** for building an interactive Executive Dashboard.
-
-The project follows a complete data analytics workflow from raw data to business recommendations.
+This project analyzes a retail sales dataset using **Python**, **Pandas**, **NumPy**, **Matplotlib**, and **Power BI**. The goal is to discover business insights through Exploratory Data Analysis (EDA) and present them using an interactive Executive Dashboard.
 
 ---
 
-# 🎯 Business Objectives
-
-This project answers the following business questions:
+# 🎯 Business Questions
 
 - How have sales changed over time?
-- Which product categories generate the highest revenue?
+- Which product categories generate the most revenue?
 - Which regions perform best?
-- Which customers contribute the most sales?
-- Which products drive revenue?
-- Are there seasonal sales patterns?
+- Which customer segments contribute the most sales?
+- Which products are top performers?
+- What seasonal trends exist?
 - Which shipping methods are preferred?
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🛠️ Tools Used
 
 - Python
 - Pandas
@@ -30,7 +26,7 @@ This project answers the following business questions:
 - Matplotlib
 - Power BI
 - Jupyter Notebook
-- GitHub
+- Git & GitHub
 
 ---
 
@@ -38,66 +34,64 @@ This project answers the following business questions:
 
 ## Executive Dashboard
 
-![Dashboard Page 1](images/dashboard retail_store page 1.png)
+![Executive Dashboard](./images/dashboard retail_store page 1.png)
 
 ---
 
-## Customer & Product Analysis Dashboard
+## Customer & Product Dashboard
 
-![Dashboard Page 2](images/page 2 dashboard retail_store.png)
+![Customer Dashboard](./images/page 2 dashboard retail_store.png)
 
 ---
 
 # 📈 Key Business Insights
 
-- Total Sales exceeded **$2.26 Million**.
-- Sales showed overall growth from 2015–2018, with a temporary decline in 2016.
-- Technology generated the highest revenue among all categories.
-- Office Supplies generated the highest number of orders.
-- The West region contributed the highest overall sales.
-- Consumer was the highest-performing customer segment.
-- Sales peaked during November and December.
-- July and August showed comparatively lower sales performance.
-- Standard Class was the most preferred shipping mode.
+- Total Sales: **$2.26M**
+- Technology generated the highest revenue.
+- West region achieved the highest sales.
+- Consumer segment generated the highest revenue.
+- Sales temporarily declined during 2016 before recovering strongly.
+- November and December recorded the highest sales.
+- Standard Class was the most frequently used shipping mode.
 
 ---
 
 # 📷 Exploratory Data Analysis
 
-## Sales Trend by Year
+## Total Sales Over Year
 
-![Sales Trend](images/total sale over year.png)
+![Total Sales Over Year](./images/total sale over year.png)
 
 ---
 
 ## Monthly Sales Trend
 
-![Monthly Sales](images/monthly sales trend.png)
+![Monthly Sales Trend](./images/monthly sales trend.png)
 
 ---
 
-## Sales by Category
+## Orders by Category
 
-![Category Sales](images/oder by ctegory.png)
+![Orders by Category](./images/oder by ctegory.png)
 
 ---
 
-## Sales by Sub-Category
+## Total Sales by Sub Category
 
-![Sub Category](images/total sales by sub category.png)
+![Sub Category](./images/total sales by sub category.png)
 
 ---
 
 ## Correlation Heatmap
 
-![Correlation](images/correlation.png)
+![Correlation](./images/correlation.png)
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-Retail-Sales-Analysis/
+Retail-Sales-Analysis
 │
 ├── README.md
 ├── Retail_Sales_Analysis.ipynb
@@ -117,13 +111,13 @@ Retail-Sales-Analysis/
 
 ---
 
-# 🚀 How to Run This Project
+# 🚀 How to Run
 
 1. Clone this repository.
 2. Install the required Python libraries.
-3. Open **Retail_Sales_Analysis.ipynb**.
+3. Open `Retail_Sales_Analysis.ipynb`.
 4. Run all notebook cells.
-5. Open **retail_store_dashboard.pbix** in Power BI Desktop.
+5. Open `retail_store_dashboard.pbix` in Power BI Desktop.
 
 ---
 
@@ -137,10 +131,10 @@ Skills:
 - Python
 - SQL
 - Power BI
-- Excel
 - Pandas
 - NumPy
+- Excel
 
 ---
 
-⭐ If you found this project useful, please consider giving it a **Star**.
+⭐ If you found this project useful, please consider giving it a star.
